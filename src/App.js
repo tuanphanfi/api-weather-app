@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Nav from './components/Nav'
-import Body from './components/Body'
+// import Body from './components/Body'
 import Buttons from './components/Buttons'
 let apiKey = process.env.REACT_APP_APIKEY
 console.log(apiKey)
