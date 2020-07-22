@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+
+.col-2 button {
+  height: 12vh;
+  width: 24vh;
+}
