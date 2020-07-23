@@ -35,6 +35,7 @@ export default class App extends Component {
   // 2. how can i get weather by my current location
 
   getLocation = () => {
+    console.log("get location")
     navigator.geolocation.getCurrentPosition((post) => {
       console.log(post)
       this.getWeather(post.coords.latitude, post.coords.longitude)
